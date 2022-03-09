@@ -1,4 +1,4 @@
-apiVersion: training.eduk8s.io/v1alpha1
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: TrainingPortal
 metadata:
   name: lab-hello-world-sample
@@ -8,6 +8,6 @@ spec:
       type: anonymous
   workshops:
   - name: lab-hello-world-sample
-    capacity: 10
+    capacity: 10@
     expires: 60m
     orphaned: 5m
